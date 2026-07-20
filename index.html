@@ -1,69 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karishma Mukilan | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Karishma Mukilan 👋</h1>
-    <p>Aspiring Web Developer</p>
+    <!-- Navigation -->
 
-    <a href="#projects">
-        <button>View Projects</button>
-    </a>
+    <nav>
 
-    <a href="#contact">
-        <button>Contact Me</button>
-    </a>
-</header>
+        <h2 class="logo">KM</h2>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        Hello! I'm Karishma from Chennai.
-        I am passionate about learning web development and building modern websites.
-        I enjoy learning new technologies and improving my coding skills every day.
-    </p>
-</section>
+        <ul>
 
-<section id="skills">
-    <h2>Skills</h2>
+            <li><a href="#home">Home</a></li>
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript (Learning)</li>
-        <li>Git & GitHub</li>
-    </ul>
-</section>
+            <li><a href="#about">About</a></li>
 
-<section id="projects">
-    <h2>Projects</h2>
+            <li><a href="#education">Education</a></li>
 
-    <h3>Portfolio Website</h3>
-    <p>My first responsive portfolio website hosted on GitHub Pages.</p>
-</section>
+            <li><a href="#skills">Skills</a></li>
 
-<section id="contact">
-    <h2>Contact</h2>
+            <li><a href="#projects">Projects</a></li>
 
-    <p>Email: your-email@example.com</p>
+            <li><a href="#contact">Contact</a></li>
 
-    <p>
-        GitHub:
-        <a href="https://github.com/karishmamukilan20" target="_blank">
-            github.com/karishmamukilan20
+        </ul>
+
+        <button id="darkModeBtn">
+            🌙
+        </button>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <header id="home">
+
+        <div class="hero-text">
+
+            <h1>Hello, I'm <span>Karishma Mukilan</span></h1>
+
+            <h3 id="typing-text">
+                Aspiring Web Developer
+            </h3>
+
+            <p>
+                B.E. Electrical and Electronics Engineering
+                <br>
+                Coimbatore Institute of Technology
+                <br>
+                Second Year Student
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects">
+                    <button>View Projects</button>
+                </a>
+
+                <a href="#contact">
+                    <button>Contact Me</button>
+                </a>
+
+                <a href="#">
+                    <button>Resume (Coming Soon)</button>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg"
+                alt="Karishma Mukilan">
+
+        </div>
+
+    </header>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            Hello! I'm Karishma Mukilan, currently pursuing
+            B.E. Electrical and Electronics Engineering at
+            Coimbatore Institute of Technology.
+
+            I am passionate about Web Development and
+            continuously improving my HTML, CSS,
+            JavaScript and GitHub skills.
+
+            My goal is to become a Full Stack Developer
+            and build impactful web applications.
+
+        </p>
+
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="card">
+
+            <h3>B.E. Electrical and Electronics Engineering</h3>
+
+            <p>Coimbatore Institute of Technology</p>
+
+            <p>2024 - 2028</p>
+
+            <p>Currently in Second Year</p>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">HTML</div>
+
+            <div class="skill-card">CSS</div>
+
+            <div class="skill-card">JavaScript</div>
+
+            <div class="skill-card">Git</div>
+
+            <div class="skill-card">GitHub</div>
+
+            <div class="skill-card">Learning React</div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <img src="https://picsum.photos/400/250?1">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Responsive portfolio website
+                    hosted using GitHub Pages.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="https://picsum.photos/400/250?2">
+
+                <h3>Calculator App</h3>
+
+                <p>
+                    Calculator built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="https://picsum.photos/400/250?3">
+
+                <h3>To-Do App</h3>
+
+                <p>
+                    Manage daily tasks with
+                    JavaScript.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <input type="text"
+                placeholder="Your Name"
+                required>
+
+            <input type="email"
+                placeholder="Your Email"
+                required>
+
+            <textarea
+                rows="6"
+                placeholder="Your Message"></textarea>
+
+            <button type="submit">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Social -->
+
+    <section class="social">
+
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/karishmamukilan20"
+            target="_blank">
+
+            <i class="fab fa-github"></i>
+
         </a>
-    </p>
-</section>
 
-<script src="script.js"></script>
+        <a href="https://www.linkedin.com/in/karishma-mukilan-5151373b4/"
+            target="_blank">
+
+            <i class="fab fa-linkedin"></i>
+
+        </a>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Karishma Mukilan
+
+        </p>
+
+        <p>
+
+            Built with ❤️ using HTML, CSS & JavaScript
+
+        </p>
+
+    </footer>
+
+    <!-- Back To Top -->
+
+    <button id="topBtn">
+
+        ↑
+
+    </button>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
