@@ -1,1 +1,3 @@
-console.log("Welcome to my portfolio!");
+function sayHello(){
+    alert("Welcome to my portfolio website!");
+}
